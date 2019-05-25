@@ -1,6 +1,6 @@
 package com.sport.app.repository.entity;
 
-import com.backend.controller.application_user.ApplicationUserDTO;
+import com.sport.app.controller.application_user.ApplicationUserDTO;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

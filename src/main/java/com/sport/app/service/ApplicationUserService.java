@@ -1,7 +1,7 @@
 package com.sport.app.service;
 
-import com.backend.repository.ApplicationUserRepository;
-import com.backend.repository.entity.ApplicationUser;
+import com.sport.app.repository.ApplicationUserRepository;
+import com.sport.app.repository.entity.ApplicationUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

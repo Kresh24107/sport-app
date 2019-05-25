@@ -1,6 +1,6 @@
 package com.sport.app.controller.application_user;
 
-import com.backend.repository.entity.ApplicationUser;
+import com.sport.app.repository.entity.ApplicationUser;
 
 public class ApplicationUserDTO {
 

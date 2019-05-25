@@ -1,6 +1,6 @@
 package com.sport.app.repository;
 
-import com.backend.repository.entity.ApplicationUser;
+import com.sport.app.repository.entity.ApplicationUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

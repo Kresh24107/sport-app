@@ -1,6 +1,6 @@
 package com.sport.app.repository.entity;
 
-import com.backend.controller.event.EventDTO;
+import com.sport.app.controller.event.EventDTO;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

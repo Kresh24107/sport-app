@@ -1,9 +1,9 @@
 package com.sport.app.controller.application_user;
 
-import com.backend.controller.MessageResponse;
-import com.backend.exception.NotFoundException;
-import com.backend.repository.entity.ApplicationUser;
-import com.backend.service.ApplicationUserService;
+import com.sport.app.controller.MessageResponse;
+import com.sport.app.exception.NotFoundException;
+import com.sport.app.repository.entity.ApplicationUser;
+import com.sport.app.service.ApplicationUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,7 +1,7 @@
 package com.sport.app.service;
 
-import com.backend.repository.EventRepository;
-import com.backend.repository.entity.Event;
+import com.sport.app.repository.EventRepository;
+import com.sport.app.repository.entity.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

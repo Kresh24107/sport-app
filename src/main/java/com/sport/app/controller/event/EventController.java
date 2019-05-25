@@ -1,11 +1,11 @@
 package com.sport.app.controller.event;
 
-import com.backend.controller.MessageResponse;
-import com.backend.exception.NotFoundException;
-import com.backend.repository.entity.ApplicationUser;
-import com.backend.repository.entity.Event;
-import com.backend.service.ApplicationUserService;
-import com.backend.service.EventService;
+import com.sport.app.controller.MessageResponse;
+import com.sport.app.exception.NotFoundException;
+import com.sport.app.repository.entity.ApplicationUser;
+import com.sport.app.repository.entity.Event;
+import com.sport.app.service.ApplicationUserService;
+import com.sport.app.service.EventService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
