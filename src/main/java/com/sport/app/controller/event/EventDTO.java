@@ -1,16 +1,18 @@
 package com.sport.app.controller.event;
 
+import com.sport.app.repository.entity.Event;
+
 public class EventDTO {
 
     public EventDTO() {};
 
-//    public EventDTO(Event event) {
-//        setId(event.getId());
-//        setApplicationUserId();
-//        setPlace(event.getPlace());
-//        setText(event.getText());
-//        setTime( new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Timestamp(event.getTime())));
-//    }
+    public EventDTO(Event event) {
+        setId(event.getId());
+        setApplicationUserId(event.getApplicationUser().getId());
+        setPlace(event.getPlace());
+        setText(event.getText());
+        setTime(event.getTime().toString());
+    }
 
     private int id;
     private int applicationUserId;

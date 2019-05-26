@@ -11,7 +11,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.sql.Timestamp;
+import java.util.Date;
 
 @Entity
 @Table(name = "event")
@@ -39,7 +42,8 @@ public class Event {
     private ApplicationUser applicationUser;
 
     @Column(name = "time")
-    private Timestamp time;
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date time;
 
     @Column(name = "place")
     private String place;
@@ -71,11 +75,11 @@ public class Event {
         this.applicationUser = applicationUser;
     }
 
-    public Timestamp getTime() {
+    public Date getTime() {
         return time;
     }
 
-    public void setTime(Timestamp time) {
+    public void setTime(Date time) {
         this.time = time;
     }
 
